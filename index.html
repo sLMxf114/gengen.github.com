@@ -34,40 +34,34 @@
             font-family: 'Comic Neue', cursive; /* 使用卡通字体 */
             text-align: center; /* 文字居中 */
         }
-        .footer {
-            margin-top: auto; /* 使 footer 贴在页面底部 */
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        }
-        .footer a {
-            color: #ccc; /* 设置链接颜色为浅灰色 */
-            text-decoration: none; /* 去掉下划线 */
-            margin: 0 10px; /* 设置链接之间的间距 */
-        }
-        .footer a.special-link {
-            color: #000; /* 默认状态设置链接颜色为黑色 */
+        /* 设置所有链接的颜色为绿色并去掉下划线 */
+        a {
+            color: black;
             text-decoration: none; /* 去掉下划线 */
         }
-        /* 设置已访问状态的链接颜色为黑色 */
-        .footer a.special-link:visited {
-            color: #000;
+        /* 设置已访问状态的链接颜色为绿色并去掉下划线 */
+        a:visited {
+            color: black;
+            text-decoration: none; /* 去掉下划线 */
         }
-        /* 设置悬停状态的链接颜色为黑色 */
-        .footer a.special-link:hover {
-            color: #000;
+        /* 设置悬停状态的链接颜色为绿色并去掉下划线 */
+        a:hover {
+            color: black;
+            text-decoration: none; /* 去掉下划线 */
         }
-        /* 设置点击状态的链接颜色为黑色 */
-        .footer a.special-link:active {
-            color: #000000;
+        /* 设置点击状态的链接颜色为绿色并去掉下划线 */
+        a:active {
+            color: green;
+            text-decoration: none; /* 去掉下划线 */
         }
     </style>
 </head>
 <body>
     <h1 style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Gen-gen-dui</h1>
     <div class="footer">
-        <a href="https://www.luogu.com.cn/team/85363">This is General's Gen-gen-dui，汪汪队总部</a>
-    <br/>
+        <p>This is General's Gen-gen-dui</p>
+        <a href="https://www.luogu.com.cn/team/85363">汪汪队总部</a>
+    <br>
         <a href="https://www.luogu.com.cn/discuss/870801">莱德需要我们</a>
     </div>
 </body>
