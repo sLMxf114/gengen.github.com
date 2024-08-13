@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<utf-8>
+<head>
+    <title>GCSG01</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap'); /* 导入卡通字体 */
+        body {
+            background-color: #000; /* 设置背景颜色为黑色 */
+            color: #ccc; /* 设置文字颜色为浅灰色 */
+            background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/642zl9yy.png');
+            background-size: cover; /* 使背景图片自动缩放以覆盖整个元素 */
+            background-repeat: no-repeat; /* 防止图片重复 */
+            background-attachment: fixed; /* 使背景图片固定，不随滚动条滚动 */
+            position: relative; /* 设置相对定位 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* 添加文字阴影 */
+            display: flex;
+            flex-direction: column; /* 使内容垂直排列 */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 使内容垂直居中 */
+            margin: 0;
+        }
+        body::before {
+            content: ''; /* 伪元素内容为空 */
+            position: absolute; /* 绝对定位 */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* 半透明的黑色背景，更深的黑色 */
+            z-index: -1; /* 将伪元素置于背景图片之下 */
+        }
+        h1 {
+            font-family: 'Comic Neue', cursive; /* 使用卡通字体 */
+            text-align: center; /* 文字居中 */
+        }
+        .footer {
+            margin-top: auto; /* 使 footer 贴在页面底部 */
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .footer a {
+            color: #ccc; /* 设置链接颜色为浅灰色 */
+            text-decoration: none; /* 去掉下划线 */
+            margin: 0 10px; /* 设置链接之间的间距 */
+        }
+        .footer a.special-link {
+            color: #000; /* 默认状态设置链接颜色为黑色 */
+            text-decoration: none; /* 去掉下划线 */
+        }
+        /* 设置已访问状态的链接颜色为黑色 */
+        .footer a.special-link:visited {
+            color: #000;
+        }
+        /* 设置悬停状态的链接颜色为黑色 */
+        .footer a.special-link:hover {
+            color: #000;
+        }
+        /* 设置点击状态的链接颜色为黑色 */
+        .footer a.special-link:active {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Gen-gen-dui</h1>
+    <div class="footer">
+        <a href="https://b.mc.js.cool">网页MC</a>
+    </div>
+</body>
+</html>
